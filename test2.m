@@ -55,6 +55,7 @@ import fso.outdoor.ao
 
 %% Zernike Fitting
 
+N = input("Enter N: ");
 sys = ao;
 [x,y] = sys.receiver(sys.D/2 ,sys.D/2 ,101 ,101);
 mu = [0 0];
